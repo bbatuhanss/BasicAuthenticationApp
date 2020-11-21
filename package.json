@@ -1,0 +1,55 @@
+{
+  "name": "bilicraLogin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.7.3",
+    "core-js": "^3.6.5",
+    "firebase": "^7.17.2",
+    "i": "^0.3.6",
+    "native-base": "^2.13.13",
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-camera": "^3.36.0",
+    "react-native-cli": "^2.0.1",
+    "react-native-elements": "^2.2.1",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-modal": "^11.5.6",
+    "react-native-navigation": "^6.11.0",
+    "react-native-navigation-stack": "^0.1.2",
+    "react-native-permissions": "^2.1.5",
+    "react-native-qrcode-scanner": "^1.4.1",
+    "react-native-qrcode-scanner-view": "^2.0.0",
+    "react-native-reanimated": "^1.13.0",
+    "react-native-safe-area-context": "^3.1.4",
+    "react-native-screens": "^2.10.1",
+    "react-native-swiper": "^1.6.0",
+    "react-native-vector-icons": "^7.0.0",
+    "react-native-web-swiper": "^2.1.7",
+    "react-navigation": "^4.4.0",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.2.2",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
+    "jest": "^26.2.2",
+    "metro-react-native-babel-preset": "^0.61.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
